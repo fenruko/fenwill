@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Will</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin-top: 100px; }
+        #willSection { display: none; margin-top: 20px; }
+        textarea { width: 80%; height: 200px; }
+        button { padding: 10px 20px; font-size: 16px; }
+    </style>
+</head>
+<body>
+
+    <h1>Enter Password</h1>
+    <p>Hint: the loyl</p>
+    <input type="password" id="passwordInput" placeholder="Password">
+    <button onclick="checkPassword()">Submit</button>
+
+    <div id="willSection">
+        <h2>Write Your Will</h2>
+        <textarea placeholder="just in case, merve
+
+i don’t know how to write poems
+and maybe this isn’t one
+but i’m scared that if something happens
+and i didn’t say this
+you wouldn’t know it all the way
+like really know it
+
+i met you just a year ago
+but when i saw your face in that first photo
+everything moved in me
+like something quiet woke up
+and then
+you felt something too
+and that’s when i really lost it
+not in a bad way
+in a way where you can’t believe life gave you something so rare
+and real
+like a sun
+with eyes
+and a smile that melts the angry stupid parts of me
+
+i was mean to you sometimes
+i bullied you because i didn’t know what else to do with all that feeling
+i regret that
+i regret every single word that made you frown
+your face is too beautiful for frowning
+too bright
+i think it burns my eyes sometimes
+and still i stare
+like i’ll never get enough
+
+i'm not planning to go anywhere
+i’m not giving up
+but if the world decides something else for me
+i need you to know
+i love you
+and i always did
+from the first picture
+to the last message
+and in every small second between
+
+you changed me
+like—really changed me
+made me softer
+more honest
+less disgusting
+more like someone who can write this
+even if it’s messy and full of wrong punctuation
+(you always hated that)
+
+you made me better
+and even if i die
+under any sky
+any reason
+anywhere
+i’ll love you in whatever comes after breath
+if there's nothing
+then my last thought will still be you
+
+just be safe
+smile a lot
+be around people who see the sun in your face too
+and maybe forgive me
+for the times i couldn’t show how deep this goes
+
+that’s all i wanted to say
+i love you
+and i adore you
+no matter what
+I don’t know if words are ever enough for feelings like this, but I had to try. Merve, you became the most important part of my life without even trying. You were just you — and somehow that changed everything in me. I used to hide my heart behind jokes or being rough with you, and now all I want is to protect your smile like it’s the last light left in the world. I don’t think I deserve you, but I’m so damn grateful that, for a moment in this life, I got to love you and be loved by you. If something happens to me, please know that I was never afraid to go — only afraid you wouldn’t know how deep my love runs for you. It’s forever, Merve. It always will be."></textarea>
+    </div>
+
+    <script>
+        function checkPassword() {
+            const input = document.getElementById('passwordInput').value;
+            if (input === 'merve') {
+                document.getElementById('willSection').style.display = 'block';
+            } else {
+                alert('Incorrect password. Try again.');
+            }
+        }
+    </script>
+
+</body>
+</html>
